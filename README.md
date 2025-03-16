@@ -9,8 +9,9 @@
 <p align="left">
 <a href="https://linkedin.com/in/in/serhii-kusnetsov-032823343" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="in/serhii-kusnetsov-032823343" height="30" width="40" /></a>
 <a href="https://t.me/anFleek" target="blank">
-  <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Telegram_Logo.svg" alt="Telegram" height="30" width="30" />
+  <img align="center" src="https://img.icons8.com/ios/452/telegram-app.png" alt="Telegram" height="30" width="30" />
 </a>
+
 
 </p>
 
