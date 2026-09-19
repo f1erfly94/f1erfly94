@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="title desc">
+  <title id="title">Serhii Kuznetsov — frontend developer</title>
+  <desc id="desc">I build web apps that ship. A mosaic of tiles, one of them being moved by another person's cursor.</desc>
+  <style>
+    .sans { font-family: "Segoe UI Variable Display", "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+    .mono { font-family: "Cascadia Code", "SF Mono", Consolas, "Liberation Mono", monospace; }
+    .drag { animation: drag 7s cubic-bezier(0.65, 0, 0.35, 1) infinite; }
+    .ghost { animation: ghost 7s ease-in-out infinite; }
+    @keyframes drag {
+      0%, 14% { transform: translate(0, 0); }
+      42%, 64% { transform: translate(78px, 78px); }
+      92%, 100% { transform: translate(0, 0); }
+    }
+    @keyframes ghost {
+      0%, 14%, 92%, 100% { opacity: 0.9; }
+      42%, 64% { opacity: 0.25; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .drag, .ghost { animation: none; }
+    }
+  </style>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <radialGradient id="glow" cx="78%" cy="0%" r="70%">
+      <stop offset="0" stop-color="#00ff99" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#00ff99" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0%" cy="100%" r="55%">
+      <stop offset="0" stop-color="#5e84ff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#5e84ff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1280" height="340" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="340" fill="#16161b"/>
+    <rect width="1280" height="340" fill="url(#grid)"/>
+    <rect width="1280" height="340" fill="url(#glow)"/>
+    <rect width="1280" height="340" fill="url(#glow2)"/>
+
+    <!-- Text -->
+    <circle cx="78" cy="101" r="5" fill="#00ff99"/>
+    <text x="94" y="106" class="mono" font-size="14" letter-spacing="3" fill="#9aa0a8">FRONTEND DEVELOPER · CHERKASY, UKRAINE</text>
+    <text x="72" y="178" class="sans" font-size="64" font-weight="700" letter-spacing="-1.5" fill="#ffffff">Serhii Kuznetsov</text>
+    <text x="74" y="232" class="sans" font-size="30" font-weight="500" fill="#ffffff" fill-opacity="0.72">I build web apps that <tspan fill="#00ff99" fill-opacity="1" font-weight="700">ship.</tspan></text>
+    <text x="74" y="280" class="mono" font-size="15" fill="#9aa0a8">React · Next.js · TypeScript · Canvas · WebGL · Durable Objects</text>
+
+    <!-- Mosaic: 4 × 3 tiles, 64 px with 14 px gaps -->
+    <g stroke-width="3">
+      <rect x="872" y="60" width="64" height="64" rx="10" fill="#fcc419"/>
+      <rect x="1030" y="60" width="64" height="64" rx="10" fill="none" stroke="#4263eb"/>
+      <rect x="1108" y="60" width="64" height="64" rx="10" fill="#40c057"/>
+
+      <rect x="872" y="138" width="64" height="64" rx="10" fill="none" stroke="#fa5252"/>
+      <rect x="950" y="138" width="64" height="64" rx="10" fill="#9c36b5"/>
+      <rect x="1108" y="138" width="64" height="64" rx="10" fill="none" stroke="#f08c00"/>
+
+      <rect x="872" y="216" width="64" height="64" rx="10" fill="#343a40"/>
+      <rect x="950" y="216" width="64" height="64" rx="10" fill="none" stroke="#00ff99"/>
+      <rect x="1030" y="216" width="64" height="64" rx="10" fill="none" stroke="#fcc419"/>
+      <rect x="1108" y="216" width="64" height="64" rx="10" fill="#4263eb"/>
+    </g>
+
+    <!-- The two slots the moving tile travels between -->
+    <rect class="ghost" x="951.5" y="61.5" width="61" height="61" rx="9" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-dasharray="5 5" stroke-width="1.5"/>
+    <rect x="1029.5" y="139.5" width="61" height="61" rx="9" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-dasharray="5 5" stroke-width="1.5"/>
+
+    <!-- A tile being moved by someone else, with their selection and cursor -->
+    <g class="drag">
+      <rect x="950" y="60" width="64" height="64" rx="10" fill="#fa5252"/>
+      <rect x="945" y="55" width="74" height="74" rx="13" fill="none" stroke="#e8590c" stroke-width="2"/>
+      <g transform="translate(996 104)">
+        <path d="M0 0v19l5-4.5 3.8 7.8 2.8-1.2-3.7-7.6H14.5Z" fill="#e8590c" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+        <rect x="14" y="21" width="92" height="22" rx="7" fill="#e8590c"/>
+        <text x="60" y="36.5" class="sans" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">Quiet Otter</text>
+      </g>
+    </g>
+  </g>
+</svg>

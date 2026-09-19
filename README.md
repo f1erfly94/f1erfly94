@@ -1,25 +1,73 @@
-<h1 align="center">Hi 👋, I'm Serhii</h1>
-<h3 align="center">A passionate Front-End Developer from Ukraine</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="Serhii Kuznetsov — frontend developer. I build web apps that ship." src="assets/banner-light.svg" width="100%">
+</picture>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=f1erfly94&label=Profile%20views&color=0e75b6&style=flat" alt="f1erfly94" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=f1erfly94" alt="f1erfly94" /></a> </p>
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/serhii-kusnetsov-032823343/" target="blank">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-</a>
-<a href="https://t.me/anFleek" target="blank">
-  <img align="center" src="https://img.icons8.com/color/452/telegram-app.png" alt="Telegram" height="30" width="30" />
-</a>
+<p align="center">
+  <a href="https://sk-portfilio.vercel.app"><b>Portfolio</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://sk-portfilio.vercel.app/notes"><b>Notes</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/serhii-kusnetsov-032823343/"><b>LinkedIn</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://t.me/Serhii_Kuznetsov05"><b>Telegram</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:serhii.kuznetsov05@gmail.com"><b>Email</b></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://babeljs.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://mochajs.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg" alt="mocha" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://webpack.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/> </a> </p>
+Frontend developer working in React, Next.js and TypeScript. I'm drawn to the parts of the front end
+that are hard to fake — state shared between people, rendering that stays fast at scale, interfaces
+that work from the keyboard — and I prefer to prove things with measurements and tests rather than
+adjectives. Open to full-time and freelance work.
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=f1erfly94&show_icons=true&locale=en&layout=compact" alt="f1erfly94" /></p>
+## Selected work
 
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://tessera.flytomars94.workers.dev"><img src="assets/tessera.jpg" alt="Tessera: two people editing one board, with the other person's cursor and selection" width="100%"></a>
+      <h3><a href="https://github.com/f1erfly94/tessera">Tessera</a></h3>
+      <p>A multiplayer whiteboard with the sync written from scratch: live cursors, offline edits that merge on reconnect, undo that only takes back your own changes. A simulation checks that every client converges.</p>
+      <p><a href="https://tessera.flytomars94.workers.dev">Live</a> · <a href="https://github.com/f1erfly94/tessera">Code</a> · <a href="https://sk-portfilio.vercel.app/work/tessera">Case study</a></p>
+      <p><sub>Durable Objects · Canvas 2D · React · TypeScript</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://quorum-planning-poker.vercel.app"><img src="assets/quorum.jpg" alt="Quorum: a planning-poker room" width="100%"></a>
+      <h3><a href="https://github.com/f1erfly94/quorum-planning-poker">Quorum</a></h3>
+      <p>Planning poker where votes stay hidden on the server until the reveal — there is nothing to find in the network tab. Presence, host handover and reconnection, tested with two browsers at once.</p>
+      <p><a href="https://quorum-planning-poker.vercel.app">Live</a> · <a href="https://github.com/f1erfly94/quorum-planning-poker">Code</a> · <a href="https://sk-portfilio.vercel.app/work/quorum">Case study</a></p>
+      <p><sub>Cloudflare Workers · Durable Objects · Next.js · TypeScript</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://accessible-combobox.vercel.app"><img src="assets/accessible-combobox.jpg" alt="Two comboboxes side by side: accessible and naive" width="100%"></a>
+      <h3><a href="https://github.com/f1erfly94/accessible-combobox">Accessible Combobox</a></h3>
+      <p>The WAI-ARIA combobox pattern over 8,000 virtualised options, next to the naive version most dropdowns really are — and an honest look at what axe catches and what only keyboard tests do.</p>
+      <p><a href="https://accessible-combobox.vercel.app">Live</a> · <a href="https://github.com/f1erfly94/accessible-combobox">Code</a> · <a href="https://sk-portfilio.vercel.app/work/accessible-combobox">Case study</a></p>
+      <p><sub>Next.js · TypeScript · Playwright · axe-core</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://cook-galaxy.vercel.app"><img src="assets/cook-galaxy.jpg" alt="Cook Galaxy: the recipe app's home page" width="100%"></a>
+      <h3><a href="https://cook-galaxy.vercel.app">Cook Galaxy</a></h3>
+      <p>A full-stack recipe and meal-planning product: AI import from a photo or a link, meal plans that build their own shopping list, subscriptions, and an Expo app on the same backend.</p>
+      <p><a href="https://cook-galaxy.vercel.app">Live</a> · <a href="https://sk-portfilio.vercel.app/work/cook-galaxy">Case study</a> · <sub>private code</sub></p>
+      <p><sub>Next.js · Prisma · PostgreSQL · Expo · Gemini</sub></p>
+    </td>
+  </tr>
+</table>
 
+Also: [KLYK-65](https://klyk-3d-keyboard.vercel.app), a 3D keyboard rendered in WebGL without a single
+model file, and more on the [portfolio](https://sk-portfilio.vercel.app/work).
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=f1erfly94&" alt="f1erfly94" /></p>
+## Things I wrote down
+
+- **[The lag my test browser could not see](https://sk-portfilio.vercel.app/notes/the-lag-my-test-browser-could-not-see)** —
+  headless Chrome draws at 60 fps, so on a 165 Hz screen it hid a 146 ms frame.
+- **[AnimatePresence and the pages that went blank](https://sk-portfilio.vercel.app/notes/animatepresence-and-the-blank-pages)** —
+  30 of 40 navigations ended on a page that was there but invisible.
+- **[The counter that reset "4 years" to zero](https://sk-portfilio.vercel.app/notes/the-counter-that-reset-to-zero)** —
+  two halves of one library disagreeing about when to start.
+
+## Toolbox
+
+- **Front end** — React · Next.js · TypeScript · Tailwind CSS · Framer Motion · Canvas 2D · three.js
+- **Real-time and data** — Cloudflare Workers · Durable Objects · WebSockets · Prisma · PostgreSQL · TanStack Query
+- **Quality** — Playwright · Vitest · Jest · axe-core · GitHub Actions
+- **Mobile** — Expo · React Native
