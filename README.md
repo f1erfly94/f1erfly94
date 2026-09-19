@@ -21,18 +21,18 @@ adjectives. Open to full-time and freelance work.
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://strata.flytomars94.workers.dev"><img src="assets/strata.jpg" alt="Strata: a scatter plot of two million trips as a density map, next to the charts it filters" width="100%"></a>
+      <h3><a href="https://strata.flytomars94.workers.dev">Strata</a></h3>
+      <p>Linked charts over up to ten million rows, entirely in the browser. Brush any chart and the rest follow within the frame. Workers share the rows in memory, a brush reads lookup tables instead of rescanning, and a WebGL2 density plot shows every row.</p>
+      <p><a href="https://strata.flytomars94.workers.dev">Live</a> · <a href="https://sk-portfilio.vercel.app/work/strata">Case study</a> · <sub>private code</sub></p>
+      <p><sub>Web Workers · SharedArrayBuffer · WebGL2 · React · TypeScript</sub></p>
+    </td>
+    <td width="50%" valign="top">
       <a href="https://tessera.flytomars94.workers.dev"><img src="assets/tessera.jpg" alt="Tessera: two people editing one board, with the other person's cursor and selection" width="100%"></a>
       <h3><a href="https://github.com/f1erfly94/tessera">Tessera</a></h3>
       <p>A multiplayer whiteboard with the sync written from scratch: live cursors, offline edits that merge on reconnect, undo that only takes back your own changes. A simulation checks that every client converges.</p>
       <p><a href="https://tessera.flytomars94.workers.dev">Live</a> · <a href="https://github.com/f1erfly94/tessera">Code</a> · <a href="https://sk-portfilio.vercel.app/work/tessera">Case study</a></p>
       <p><sub>Durable Objects · Canvas 2D · React · TypeScript</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://quorum-planning-poker.vercel.app"><img src="assets/quorum.jpg" alt="Quorum: a planning-poker room" width="100%"></a>
-      <h3><a href="https://github.com/f1erfly94/quorum-planning-poker">Quorum</a></h3>
-      <p>Planning poker where votes stay hidden on the server until the reveal — there is nothing to find in the network tab. Presence, host handover and reconnection, tested with two browsers at once.</p>
-      <p><a href="https://quorum-planning-poker.vercel.app">Live</a> · <a href="https://github.com/f1erfly94/quorum-planning-poker">Code</a> · <a href="https://sk-portfilio.vercel.app/work/quorum">Case study</a></p>
-      <p><sub>Cloudflare Workers · Durable Objects · Next.js · TypeScript</sub></p>
     </td>
   </tr>
   <tr>
@@ -53,8 +53,9 @@ adjectives. Open to full-time and freelance work.
   </tr>
 </table>
 
-Also: [KLYK-65](https://klyk-3d-keyboard.vercel.app), a 3D keyboard rendered in WebGL without a single
-model file, and more on the [portfolio](https://sk-portfilio.vercel.app/work).
+Also: [Quorum](https://github.com/f1erfly94/quorum-planning-poker), planning poker where votes stay hidden
+on the server until the reveal; [KLYK-65](https://klyk-3d-keyboard.vercel.app), a 3D keyboard rendered in
+WebGL without a single model file; and more on the [portfolio](https://sk-portfilio.vercel.app/work).
 
 ## Things I wrote down
 
@@ -67,7 +68,7 @@ model file, and more on the [portfolio](https://sk-portfilio.vercel.app/work).
 
 ## Toolbox
 
-- **Front end** — React · Next.js · TypeScript · Tailwind CSS · Framer Motion · Canvas 2D · three.js
-- **Real-time and data** — Cloudflare Workers · Durable Objects · WebSockets · Prisma · PostgreSQL · TanStack Query
+- **Front end** — React · Next.js · TypeScript · Tailwind CSS · Framer Motion · Canvas 2D · WebGL2 · three.js
+- **Real-time and data** — Cloudflare Workers · Durable Objects · WebSockets · Web Workers · Prisma · PostgreSQL · TanStack Query
 - **Quality** — Playwright · Vitest · Jest · axe-core · GitHub Actions
 - **Mobile** — Expo · React Native
