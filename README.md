@@ -55,7 +55,7 @@ adjectives. Open to full-time and freelance work.
 
 Also: [Quorum](https://github.com/f1erfly94/quorum-planning-poker), planning poker where votes stay hidden
 on the server until the reveal; [KLYK-65](https://klyk-3d-keyboard.vercel.app), a 3D keyboard rendered in
-WebGL without a single model file; and more on the [portfolio](https://sk-portfilio.vercel.app/work).
+WebGL without a single model file ([code](https://github.com/f1erfly94/klyk-3d-keyboard)); and more on the [portfolio](https://sk-portfilio.vercel.app/work).
 
 ## Things I wrote down
 
