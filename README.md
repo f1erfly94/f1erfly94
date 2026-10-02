@@ -24,7 +24,7 @@ adjectives. Open to full-time and freelance work.
       <a href="https://strata.flytomars94.workers.dev"><img src="assets/strata.jpg" alt="Strata: a scatter plot of two million trips as a density map, next to the charts it filters" width="100%"></a>
       <h3><a href="https://strata.flytomars94.workers.dev">Strata</a></h3>
       <p>Linked charts over up to ten million rows, entirely in the browser. Brush any chart and the rest follow within the frame. Workers share the rows in memory, a brush reads lookup tables instead of rescanning, and a WebGL2 density plot shows every row.</p>
-      <p><a href="https://strata.flytomars94.workers.dev">Live</a> · <a href="https://sk-portfilio.vercel.app/work/strata">Case study</a> · <sub>private code</sub></p>
+      <p><a href="https://strata.flytomars94.workers.dev">Live</a> · <a href="https://github.com/f1erfly94/strata">Code</a> · <a href="https://sk-portfilio.vercel.app/work/strata">Case study</a></p>
       <p><sub>Web Workers · SharedArrayBuffer · WebGL2 · React · TypeScript</sub></p>
     </td>
     <td width="50%" valign="top">
